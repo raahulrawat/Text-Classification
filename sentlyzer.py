@@ -6,6 +6,7 @@ from sklearn.svm import LinearSVC
 import spacy, json
 import string
 
+# loading spaCy model during initialization
 punctuations = string.punctuation
 parser = spacy.load('en')
 
