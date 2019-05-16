@@ -22,3 +22,21 @@ Model Training: The final step is the Model Building step in which a machine lea
 
 Improve Performance of Text Classifier: In this article, we will also look at the different ways to improve the performance of text classifiers.
 ```
+Requirements:
+
+```
+spaCy
+Scikit-learn
+```
+
+USAGE:
+```python
+from sentlyzer import sentilyze
+load = sentilyz()
+text = "Sample Text"
+
+cls = predict(text)
+
+print(cls)
+
+```
